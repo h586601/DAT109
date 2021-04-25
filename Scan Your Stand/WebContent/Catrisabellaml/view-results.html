@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultat</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/view-results.css">
+</head>
+
+<body>
+    <div class="view-results container-special">
+        <div class="view-results-box transparent-bg">
+            <div class="view-results-left">
+                <table class="view-results-table">
+                    <thead class="view-results-table-head">
+                        <tr class="view-results-table-head-tr">
+                            <th class="view-results-col1">Resultat</th>
+                            <th class="view-results-col2">Stemmer</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td data-label="resultat">
+                                <span class="table-numbering">1</span>
+                                <span class="view-results-td-label">Den fantastiske standen</span>
+                            </td>
+                            <td data-label="stemmer">1000</td>
+                        </tr>
+                        <tr>
+                            <td data-label="resultat">
+                                <span class="table-numbering">2</span>
+                                <span class="view-results-td-label">Stand 2</span>
+                            </td>
+                            <td data-label="stemmer">200</td>
+                        </tr>
+                        <tr>
+                            <td data-label="resultat">
+                                <span class="table-numbering">3</span>
+                                <span class="view-results-td-label">Stand 3</span>
+                            </td>
+                            <td data-label="stemmer">50</td>
+                        </tr>
+                        <tr>
+                            <td data-label="resultat">
+                                <span class="table-numbering">4</span>
+                                <span class="view-results-td-label">Stand 4</span>
+                            </td>
+                            <td data-label="stemmer">0</td>
+                        </tr>
+                    </tbody>
+                </table> <!--.view-results-table-->
+
+                <form class="view-results-form" action="" method="POST">
+                    <input type="submit" class="vote-again-cta button-default" value="Gi ny stemme">
+                </form>
+            </div> <!--.view-results-left-->
+        </div> <!--.view-results-box-->
+
+        <a class="vote-success-tilbake" href="#">&larr; Tilbake</a>
+    </div><!--.view-results-->
+</body>
+</html>
