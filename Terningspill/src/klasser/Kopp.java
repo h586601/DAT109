@@ -18,25 +18,14 @@ public class Kopp {
 
 	public void trill() {
 		sum = 0;
-		for(Terning terning : terninger) {
+		for (Terning terning : terninger) {
 			terning.trill();
 			sum += terning.getVerdi();
 		}
-	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 	public Integer getSum() {
 		return sum;
 	}
 
-	public void setSum(Integer sum) {
-		this.sum = sum;
-	}
 }

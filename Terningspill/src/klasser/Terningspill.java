@@ -20,22 +20,6 @@ public class Terningspill {
 	public Terningspill(Integer id) {
 		this.id = id;
 	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	
-	public List<Spiller> getSpillere() {
-		return spillere;
-	}
-
-	public void setSpillere(List<Spiller> spillere) {
-		this.spillere = spillere;
-	}
 	
 	public static Terningspill lagSpill() {
 		return new Terningspill();
